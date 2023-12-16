@@ -11,3 +11,27 @@
 7. Update the pipeline
 8. Update the main.py
 9. update the dvc.yaml
+
+# How to run?
+
+## STEPS:
+Clone the repository
+https://github.com/VedangSavadi/Chicken-Disease-Classification
+
+## STEP 01 - Create a conda evironment after opening the repository
+conda create -n cnncls python=8.8 -y
+conda activate cnncls
+
+## STEP 02 - Install the requirements
+pip install -r requirements.txt
+
+## Finally run the following command
+Python app.py
+
+Now,
+open up your local host and port
+
+## DVC cmd
+1. dvc init
+2. dvc repro
+3. dvc dag
