@@ -19,17 +19,15 @@ Clone the repository
 https://github.com/VedangSavadi/Chicken-Disease-Classification
 
 ## STEP 01 - Create a conda evironment after opening the repository
-conda create -n cnncls python=8.8 -y
-conda activate cnncls
+    conda create -n cnncls python=8.8 -y conda activate cnncls
 
 ## STEP 02 - Install the requirements
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ## Finally run the following command
-Python app.py
+    Python app.py
 
-Now,
-open up your local host and port
+### Now, open up your local host and port
 
 ## DVC cmd
 1. dvc init
