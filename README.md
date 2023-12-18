@@ -35,3 +35,21 @@ open up your local host and port
 1. dvc init
 2. dvc repro
 3. dvc dag
+
+# AWS-CICD-Deployment-With-Github-Actions
+1. Login to AWS console.
+2. Create IAM user for deployment.
+    #with specific access
+    1. EC2 access: It is virtual machine
+    2. ECR: Elastic Container Registry to save your docker image in AWS
+    #Description: About the deployment
+    1. Build docker image of the source code
+    2. Push your docker image to ECR
+    3. Launch your EC2
+    4. Pull your image from ECR in EC2
+    5. Launch your docker image in EC2
+    #Policy:
+    1. AmazonEC2ContainerRegistryFullAccess
+    2. AmazonEC2FullAccess
+3. Create ECR Repo to store/save docker image
+    - Save the URI:
